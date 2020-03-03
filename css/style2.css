@@ -1,0 +1,235 @@
+
+
+
+ /*! Input style */
+input[type="text"],
+input[type="email"],
+input[type="Password"],
+textarea.form-control,
+select.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #666666;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="Password"]:focus,
+textarea.form-control:focus,
+select.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.container-main
+{   
+    color:#fff;
+    
+}
+.container
+{   
+    background: #7CCDEE;
+    overflow: auto;
+    border-radius: 10px;
+}
+container-con
+{   
+    background: #1caa98;
+   
+}
+.panel-group
+{
+    color:#666;
+}
+.logo{
+	padding:15px 0;
+}
+.navbar{
+	margin-bottom: 20px;
+	border-radius:5px;
+	border:0;
+	background:#f4f4f4;
+}
+.em-text{
+	color:#026FB7 !important;
+}
+
+.btn1
+{
+    background-color: #026FB7;
+    color: #FFFFFF;
+    width: 100px;
+    font-size: medium;
+    margin: 20px;
+    height:35px;
+    border-radius: 6px;
+}
+
+.message
+{
+    background-color: #F2DEDE;
+    border-radius: 6px;
+    width: 345px;
+    height: 40px;
+    text-align: center;
+    z-index: 100;
+    font-size: small;
+    padding-top: 15px;
+    color: #A94442;
+}
+
+.message22
+{
+    background-color: #F2DEDE;
+    border-radius: 6px;
+    width: 345px;
+    height: 40px;
+    text-align: center;
+    z-index: 100;
+    font-family: Arial;
+    font-size: small;
+    padding-top: 15px;
+    color: #A94442;
+}
+.messageGreen
+{
+    background-color: #DFF0D8;
+    border-radius: 6px;
+    width: 345px;
+    height: 40px;
+    text-align: center;
+    z-index: 100;
+    font-family: Arial;
+    font-size: small;
+    padding-top: 15px;
+    color: #666;
+}
+
+/* carousel style  */
+#myCarousel{
+	margin-bottom: 20px;
+}
+
+#myCarousel .carousel-caption{
+	left:0;
+	right:0;
+	bottom:0;
+	text-align: left;
+	padding: 10px;
+	background:rgba(0,0,0,0.6);
+	text-shadow: none;
+	width: 800px
+}
+
+#myCarousel .carousel-caption h4{
+	color:#fff;
+}
+#myCarousel .carousel-caption p{
+	padding:0;
+	margin:0;
+}
+
+
+#myCarousel .List-group{
+	position:absolute;
+	top:0;
+	right:0;
+}
+
+#myCarousel .list-group-item{
+	border-radius:0;
+	cursor:pointer;
+}
+#myCarousel .list-group .active{
+	background:#eee;
+	border:0;
+	color:#666;
+}
+
+#myCarousel .list-group h4{
+	font-size:17px;
+	padding:0 !important;
+	margin:0 !important;
+    padding-top: 5px;
+}
+#myCarousel .img-slide{
+	width:80px;
+	height:100%;
+	float:left;
+	margin-right: 5px;
+}
+
+footer{
+	background: #333;
+	color:#fff;
+	padding: 30px 0 20px 0;
+	
+}
+footer li{
+	list-style: none;
+	padding: 0 10px 0 10px;
+	float: left;
+}
+footer a{
+	color:#fff;
+}
+
+footer p{
+	float: right;
+}
+
+
+@media(main-width:992px){
+    #myCarousel{padding-right: 33.3333%;}
+        #myCarousel .carousel-controls{display: none;}
+}
+
+@media(main-width:991px){
+    .carousel-caption p, #myCarousel .list-group{display: none;}
+}
+
+@media(main-width:1200px){
+    .slider-list p{display: none;}  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
